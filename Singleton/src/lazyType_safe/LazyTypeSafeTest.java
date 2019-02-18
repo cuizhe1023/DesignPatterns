@@ -1,5 +1,7 @@
 package lazyType_safe;
 
+import lazyType_dcl.ThreadTest;
+
 /**
  * @Author: cuizhe
  * @Date: 2019/2/18 22:13
@@ -38,9 +40,18 @@ public class LazyTypeSafeTest {
         System.out.println(test.singles);
 
          /*
+        还没有创建实例化对象
         开始实例化对象
+        还没有创建实例化对象
+        还没有创建实例化对象
+        还没有创建实例化对象
+        还没有创建实例化对象
         创建了实例化对象
-        [lazyType_safe.Singleton@6c908538]
+        开始实例化对象
+        开始实例化对象
+        开始实例化对象
+        开始实例化对象
+        [lazyType_dcl.Singleton@1e542a06]
          */
         //说明在多线程的情况下也可以安全创建.
 
