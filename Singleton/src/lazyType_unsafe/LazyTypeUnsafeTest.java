@@ -38,13 +38,11 @@ public class LazyTypeUnsafeTest {
         System.out.println(test.singles);
 
         /*
-        还没有创建了实例化对象
+        还没有创建实例化对象
+        还没有创建实例化对象
         创建了实例化对象
-        还没有创建了实例化对象
         创建了实例化对象
-        还没有创建了实例化对象
-        创建了实例化对象
-        [lazyType_unsafe.Singleton@68553a8d, lazyType_unsafe.Singleton@2633e42b, lazyType_unsafe.Singleton@7941b718]
+        [lazyType_unsafe.Singleton@3b030bf2, lazyType_unsafe.Singleton@3195835c]
          */
         //说明有线程并发访问安全问题.
 

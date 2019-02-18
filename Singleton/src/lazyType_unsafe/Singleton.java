@@ -13,7 +13,7 @@ public class Singleton {
 
     public static Singleton getInstance(){
         if (instance == null){
-            System.out.println("还没有创建了实例化对象");
+            System.out.println("还没有创建实例化对象");
             return instance = new Singleton();
         }
         return instance;
